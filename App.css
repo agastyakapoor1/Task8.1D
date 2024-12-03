@@ -1,0 +1,18 @@
+/* src/App.css */
+.App {
+  text-align: left;
+  padding: 20px;
+}
+
+.segment {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #c70000 !important;
+  color: white !important;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}

@@ -1,0 +1,70 @@
+/* HomePage.css */
+
+.homepage {
+    font-family: 'Arial', sans-serif; /* Set a clean font */
+    color: #ea0000; /* Dark grey text for readability */
+    padding: 20px; /* General padding for the page */
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .navbar {
+    background-color: #69737d; /* Dark Slate Blue color for a professional look */
+    color: white;
+    padding: 15px 30px; /* Padding for a more substantial look */
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Ensures it sticks to the top */
+    left: 0; /* Aligns with the left edge */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .navbar .item {
+    font-size: 18px; /* Set font size for navbar items */
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Ensure the text color is white */
+    margin-right: 30px; /* Space between navbar items */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  
+  .content {
+    display: flex;
+    justify-content: space-around; /* Space out features evenly */
+    flex-wrap: wrap; /* Wrap items for smaller screens */
+  }
+  
+  .feature {
+    background: white; /* White background for feature cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 30%; /* Width of each feature card */
+    margin: 10px; /* Margin around each feature */
+    padding: 20px; /* Padding within each feature */
+    text-align: center; /* Center text in feature cards */
+  }
+  
+  .feature-image {
+    width: 100%; /* Full width for images */
+    border-radius: 8px; /* Match image corners with card */
+    margin-bottom: 15px; /* Space below images */
+  }
+  
+  .feature h2 {
+    font-size: 24px; /* Heading size for features */
+    margin: 10px 0; /* Space above and below headings */
+  }
+  
+  .feature p {
+    font-size: 16px; /* Text size for feature descriptions */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .feature {
+      width: 100%; /* Full width on smaller screens */
+      margin-bottom: 20px; /* More space between cards */
+    }
+  }
+  

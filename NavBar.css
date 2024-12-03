@@ -1,0 +1,31 @@
+/* NavBar.css */
+
+/* Updated Navbar style to match the gradient of "Welcome to Post Platform" */
+.navbar {
+    background: linear-gradient(90deg,  rgb(237, 167, 28) 100%);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: white; /* Ensure text is white to stand out on the gradient */
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ffd700; /* Change text color on hover for better user experience */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  

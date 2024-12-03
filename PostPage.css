@@ -1,0 +1,61 @@
+/* PostPage.css */
+
+.post-page {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .header-title {
+    color: #4A90E2;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-segment {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .form-header {
+    color: #4A90E2;
+    margin-bottom: 15px; /* Space below header */
+  }
+  
+  .label-title {
+    font-weight: bold;
+    margin-top: 15px; /* Space above label */
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  textarea, input[type="text"], input[type="tags"] {
+    min-height: 40px; /* Adjust height */
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%; /* Extend width */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    margin-bottom: 15px; /* Space below input fields */
+  }
+  
+  input[type="text"]:focus, textarea:focus {
+    border-color: #4A90E2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
